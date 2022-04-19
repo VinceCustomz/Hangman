@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="styles.css" />
     <script defer src="main.js"></script>
 </head>
-    <h1>Avengers Hangman</h1>
+    <h1>Nine Lives - The Word Guessing Game! (Marvel Edition) </h1>
 <body>
     <div class="input-caption">Guess a letter, then click submit:</div>
-    
-    <div class="blank1">3</div>
-    <div class="blank1">4</div>
-    <div class="blank1">5</div>
+    <div class="blank1"></div>
+    <div class="blank1"></div>
+    <div class="blank1"></div>
     
     <div class="input-square">
         <input id="user-input" type="text" maxlength="1" style="text-transform: lowercase";>
@@ -24,25 +23,54 @@
         <button id="submit-button">SUBMIT</button>
     </div>
     
-    <div class="blank1">3</div>
-    <div class="blank1">4</div>
-    <div class="blank1">5</div>
+    <div class="incorrect-letter-title">Incorrect Letters</div>
+    <div class="blank1"></div>
     
-    <div class="text attempt-text">Attempts Remaining:</div>
+    <div class="blank1"></div>
+    
+    <div class="text attempt-text">Lives Remaining:</div>
     <div class="text attempt-remaining"></div>
     
-    <div class="text win-message">8</div>
-    <div class="blank1">9</div>
-    <div class="blank1">10</div>
+    <div class="incorrect-letters"></div>
+    <div class="blank1"></div>
+    <div class="blank1"></div>
     
-    <div class="text word-length-title">Word Length:</div>
+    <div class="text word-length-title">Word Length (# of letters):
+    </div>
     <div class="text word-length-text"></div>
     
-    <div class="blank1">13</div>
-    <div class="blank1">14</div>
-    <div class="blank1">15</div>
+    <div class="correct-letter-title">Correct Letters</div>
+    <div class="blank1"></div>
+    <div class="blank1"></div>
     
     <div class="text correct-guesses">Correct Guesses:</div>
     <div class="text correct-guess-count"></div>
+
+    <div class="correct-letters"></div>
+    <div class="blank1"></div>
+    <div class="blank1"></div>
+    
+    <div class="text hint-caption">Hint:</div>
+    <div class="hint-display"></div>
+    
+    <div class="input-caption2">Guess the Word</div>
+    <div class="blank1"></div>
+    <div class="blank1"></div>
+    <div class="blank1"></div>
+    
+    <div class="blank1">
+        <input id="guess-input" type="text" style="text-transform: lowercase";>
+    </div>
+    
+    <div class="blank1">
+        <button id="submit-button2">SUBMIT WORD</button>
+    </div>
+    
+    <div class="win-message"></div>
+    <div class="blank1">
+        <button id="restart-button">RESTART</button>
+    </div>
+            
+    </div>
 </body>
 </html>
