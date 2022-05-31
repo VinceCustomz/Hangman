@@ -35,4 +35,9 @@ Guess the correct Marvel Super Hero (or Villain)
 ### Future Updates / Patches
 * Include DC heros
 * Include a videoclip as a hint
-* Minor backend bugs
+* Visual upgrade that points user to guessing a word when all lives are lost
+
+#### Bugs
+* Correct guesses counter increases abnormally, should only go up by 1, if user guessed correct letter
+* User can only guess a word after they guessed at least 1 letter, want to allow user to guess word without guessing a letter
+* 
