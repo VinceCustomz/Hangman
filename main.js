@@ -126,3 +126,6 @@ function guessWord() {
     });
 }
 
+//state and if condition - checks state of game
+// if state is game over, then run this function, or else 
+
