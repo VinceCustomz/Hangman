@@ -127,6 +127,9 @@ input,
     align-self: center;
 }
 
+.input-caption {
+    color: orangered;
+}
 .input-caption2 {
     grid-column: span 2;
     font-size: 20px;
