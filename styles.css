@@ -128,7 +128,9 @@ input,
 }
 
 .input-caption {
-    color: orangered;
+    color: black;
+    font-size: 12px;
+    border: 1px solid black;
 }
 .input-caption2 {
     grid-column: span 2;
