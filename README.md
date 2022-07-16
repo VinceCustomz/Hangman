@@ -3,7 +3,8 @@ A word guessing game that gives you Nine-attempts to guess the correct letters.
 Click here to Begin:  https://vincecustomz.github.io/NineLives/
 
 ### Getting Started 
-Start the game by guessing a letter. Every wrong attempt will lower your remaining lives. Every correct letter does not lower your lives.
+Start the game by guessing a letter. 
+Every wrong attempt will lower your remaining lives. Every correct letter does not lower your lives.
 The incorrect letter and correct letter will appear, to prevent repeating yourself.
 When you run out of lives, or when you are ready, you can guess the word at any time.
 Note: You only get one chance to guess the word though!
