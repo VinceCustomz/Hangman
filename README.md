@@ -1,6 +1,6 @@
 # NineLives - Marvel Edition
 A word guessing game that gives you Nine-attempts to guess the correct letters.
-## Click here to Begin:  https://vincecustomz.github.io/NineLives/
+#### Click here to Begin:  https://vincecustomz.github.io/NineLives/
 
 ### Getting Started 
 Start the game by guessing a letter. 
